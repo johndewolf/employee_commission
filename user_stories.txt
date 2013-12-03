@@ -1,0 +1,30 @@
+As an employee
+I want to know my monthly pay
+So I can tell how much money I take home
+
+  *Emplyee net pay is calculated
+  *Employee gross pay is calculated
+  *Employee gross pay is displayed
+  *Employee net pay is displayed
+======================================
+As an business owner
+I want to know if the business hit the monthly quota
+So I can receive my bonus
+
+  *Calculate monthly revenue
+  *Dispense monthly bonus if monthly revenue exceeds 250,000
+======================================
+As a commissioned sales person
+I want to know how much commission I am earning
+So I can be paid the proper amount
+
+  *Commission sales person's commission is calculated
+  *Taxes are removed from commission
+
+======================================
+As a quota based sales person
+I want to know how much I have sold
+So that I know if I am getting my bonus
+
+  *Quota based sales person's bonus is calculated
+  *If quota is met, bonus is given to sales person
