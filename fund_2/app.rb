@@ -5,9 +5,7 @@ require_relative 'CommissionSalesPerson'
 require_relative 'Owner'
 require_relative 'Sale'
 require_relative 'SaleReader'
-
 require 'csv'
-require 'pry'
 
 import_csv = EmployeeReader.new('employee_info.csv')
 import_csv.import_file
