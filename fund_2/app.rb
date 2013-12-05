@@ -26,16 +26,11 @@ array_of_employees.each do |employee|
   employee.monthly_salary
 end
 
-# array_of_employees.each do |employee|
-
-# end
-
-
 array_of_employees.each do |employee|
   puts "***#{employee.first_name} #{employee.last_name}***"
   puts "Gross Salary: $#{employee.monthly_salary}"
   if employee.job == 'Commission'
-    puts "Commission: #{employee.commission_earned}"
+    puts "Commission: $#{employee.commission_earned}"
   elsif employee.job == 'Quota'
     puts "Quota Hit?: #{employee.quota_hit?}"
   elsif employee.job == 'Owner'
@@ -43,7 +38,8 @@ array_of_employees.each do |employee|
   else
     nil
   end
-  puts "Net Pay: #{employee.net_pay}"
+  puts "Net Pay: #{employee.net_pay.round(2)}"
+  puts nil
 end
 
 

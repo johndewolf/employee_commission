@@ -1,5 +1,3 @@
-#Employee, Owner, CommissionSalesPerson, QuotaSalesPerson, Sale
-
 class EmployeeReader
   attr_reader :employees
 
